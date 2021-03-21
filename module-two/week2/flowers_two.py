@@ -5,7 +5,6 @@
  the field names?
 """
 
-
 import os
 import csv
 
