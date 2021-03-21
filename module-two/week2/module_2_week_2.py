@@ -124,7 +124,7 @@ with open('hosts.csv', 'w') as hosts_csv:
 
 # Reading and Writing CSV Files with Dictionaries
 # DictReader turns each row of the data in a CSV file into a dictionary
-with open ("week2/software.csv") as software:
+with open ("software.csv") as software:
     reader = csv.DictReader(software)
     for row in reader:
         print("{} has {} users".format(row["name"], row["users"]))
